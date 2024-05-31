@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background-color: #283b6d;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #dbedf3;
+    font-family: "arvo",serif;
+    text-shadow: 3px 0 #da0463;
+}
+
+.set {
+    margin: 10% auto;
+} 
+
+.a { 
+    background-image: url("../assets/images/crash.png");
+}
+
+.s {
+    background-image: url("../assets/images/snare.png");
+}
+
+.d {
+    background-image: url("../assets/images/tom1.png");
+}
+
+.j {
+    background-image: url("../assets/images/kickbass.png");
+}
+
+.k {
+    background-image: url("../assets/images/tom2.png");
+}
+
+.l {
+    background-image: url("../assets/images/tom3.png");
+}
+
+.drum {
+    outline: none;
+    border: 10px solid green;
+    font-family: "arvo", serif;
+    line-height: 2;
+    font-weight: 900;
+    color: rgb(255, 9, 9);
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+footer {
+    color: white;
+    font-family: "arvo",serif;
+}
+
+/* Estilo para botões quando pressionados */
+.pressed {
+    transform: translateY(2px); /* Move o botão para baixo */
+}
